@@ -26,8 +26,8 @@ x34 = hx34 + a2;
 y34 = 0;
 x1256 = x34 * cos(pi / 3);
 y1256 = x34 * sin(pi / 3);
-'''
 
+```
 ### Roll, Pitch & Yaw Angles
 The hexapod's orientation is controlled via roll, pitch, and yaw angles, which are defined as:
 
@@ -36,7 +36,7 @@ roll = pi / 12;
 pitch = pi / 12;
 yaw = pi / 12;
 
-
+```
 ### Motion Call Functions
 
 This section simulates different types of motions by adjusting the roll, pitch, and yaw angles. The loops allow the hexapod to perform specific actions such as yawing, moving up and down, and rolling.
@@ -68,7 +68,7 @@ for i = 0:1:5
     pause(0.1);
 end
 
-
+```
 ### Motion Call Functions
 
 This section simulates different types of motions by adjusting the roll, pitch, and yaw angles. The loops allow the hexapod to perform specific actions such as yawing, moving up and down, and rolling.
@@ -99,3 +99,4 @@ for i = 0:1:5
     pitch_motion3 = rp(0, 0);
     pause(0.1);
 end
+```
