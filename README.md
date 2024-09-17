@@ -13,7 +13,7 @@ The global variables defining the hexapod's dimensions and positions:
   
 These variables are used to define the initial positions of the legs and the body of the hexapod.
 
-```matlab
+```
 global x1256 y1256 x34 y34 hx1256 hy1256 hx34 hy34 a1 a2 a3
 a1 = 5;
 a2 = 5;
@@ -26,7 +26,7 @@ x34 = hx34 + a2;
 y34 = 0;
 x1256 = x34 * cos(pi / 3);
 y1256 = x34 * sin(pi / 3);
-
+'''
 
 ### Roll, Pitch & Yaw Angles
 The hexapod's orientation is controlled via roll, pitch, and yaw angles, which are defined as:
